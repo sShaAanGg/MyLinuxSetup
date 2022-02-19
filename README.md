@@ -1,9 +1,9 @@
-# MyLinuxSetup
-
+# MyLinuxSetup  
+forked from wasabi-neko/MyLinuxSetup
 ## installation & usage
 
 ```sh
-git clone https://github.com/wasabi-neko/MylinuxSetup
+git clone https://github.com/sShaAanGg/MyLinuxSetup.git
 ```
 
 - install zsh with zim and powerlevel10k:
