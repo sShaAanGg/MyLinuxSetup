@@ -166,24 +166,24 @@ export PATH="/home/shang/bin:${PATH}"
 # Comment them if not installed
 # Mind the version in the path
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-export HADOOP_HOME="/home/shang/hadoop-2.10.1"
-export HBASE_HOME="/home/shang/hbase-2.4.9"
-export PATH="$HBASE_HOME/bin:$PATH"
-export PATH="$PATH:$HADOOP_HOME/bin"
 export PATH=${JAVA_HOME}/bin:${PATH}
-export PATH="$PATH:$HADOOP_HOME/sbin"
-export HADOOP_MAPRED_HOME=${HADOOP_HOME}
-export HADOOP_COMMON_HOME=${HADOOP_HOME}
-export HADOOP_HDFS_HOME=${HADOOP_HOME}
-export YARN_HOME=${HADOOP_HOME}
-export HADOOP_COMMON_LIB_NATIVE_DIR="$HADOOP_HOME/lib/native"
-export HADOOP_CONF_DIR="$HADOOP_HOME/etc/hadoop"
 export PDSH_RCMD_TYPE=ssh
-export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
-export HADOOP_CLASSPATH="$HADOOP_CLASSPATH:${JAVA_HOME}/lib/tools.jar"
-export HADOOP_CLASSPATH="$HADOOP_CLASSPATH:$HBASE_HOME/lib/*"
 
-export MAVEN_HOME="/home/shang/apache-maven-3.8.4"
-export PATH="$PATH:/home/shang/apache-maven-3.8.4/bin"
-export CLASSPATH="$CLASSPATH:/home/shang/hbase-2.4.9/lib/*"
+#export HADOOP_HOME="/home/shang/hadoop-2.10.1"
+#export HBASE_HOME="/home/shang/hbase-2.4.9"
+#export PATH="$HBASE_HOME/bin:$PATH"
+#export PATH="$PATH:$HADOOP_HOME/bin"
+#export PATH="$PATH:$HADOOP_HOME/sbin"
+#export HADOOP_MAPRED_HOME=${HADOOP_HOME}
+#export HADOOP_COMMON_HOME=${HADOOP_HOME}
+#export HADOOP_HDFS_HOME=${HADOOP_HOME}
+#export YARN_HOME=${HADOOP_HOME}
+#export HADOOP_COMMON_LIB_NATIVE_DIR="$HADOOP_HOME/lib/native"
+#export HADOOP_CONF_DIR="$HADOOP_HOME/etc/hadoop"
+#export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
+#export HADOOP_CLASSPATH="$HADOOP_CLASSPATH:${JAVA_HOME}/lib/tools.jar"
+#export HADOOP_CLASSPATH="$HADOOP_CLASSPATH:$HBASE_HOME/lib/*"
+#export MAVEN_HOME="/home/shang/apache-maven-3.8.4"
+#export PATH="$PATH:/home/shang/apache-maven-3.8.4/bin"
+#export CLASSPATH="$CLASSPATH:/home/shang/hbase-2.4.9/lib/*"
 
