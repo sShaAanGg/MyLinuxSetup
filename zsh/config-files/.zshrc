@@ -149,7 +149,10 @@ bindkey -M vicmd 'j' history-substring-search-down
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (( ! ${+functions[p10k]} )) || p10k finalize
 
+# --------------------
 # My personal settings
+# --------------------
+
 # alias start--mysql='sudo service mysql start'
 # alias run--mysql='sudo mysql -u root -p'
 # alias stop--mysql='sudo service mysql stop'
@@ -157,9 +160,17 @@ bindkey -M vicmd 'j' history-substring-search-down
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
 export PATH="/home/shang/bin:${PATH}"
+
 # export DISPLAY="$(grep nameserver /etc/resolv.conf | sed 's/nameserver //'):0"
 # export LIBGL_ALWAYS_INDIRECT=1
+
+# -----------------------------------
+# Java, Clang, LLVM related variables
+# -----------------------------------
+# Comment them if not installed
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 export PATH=${JAVA_HOME}/bin:${PATH}
+export PATH="/home/shang/bin/cmake-3.25.1-linux-x86_64/bin:${PATH}"
+export PATH="/home/shang/llvm/llvm-project/build/bin:${PATH}"
+
