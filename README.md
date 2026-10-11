@@ -17,3 +17,4 @@ git clone https://github.com/sShaAanGg/MyLinuxSetup.git
 - [ ] add more packages categorized with different usage
   - may include tom-code for Claude code
   - some scripting utilies
+- [ ] Reorganize project structure based on my preference
