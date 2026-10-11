@@ -15,3 +15,5 @@ git clone https://github.com/sShaAanGg/MyLinuxSetup.git
 ## TODOS
 
 - [ ] add more packages categorized with different usage
+  - may include tom-code for Claude code
+  - some scripting utilies
