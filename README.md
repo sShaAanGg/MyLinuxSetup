@@ -6,7 +6,7 @@ forked from wasabi-neko/MyLinuxSetup
 git clone https://github.com/sShaAanGg/MyLinuxSetup.git
 ```
 
-- install zsh with zim and powerlevel10k:
+- (my preference) install zsh with zim and powerlevel10k:
   - `cd ./zsh && zsh ./install-p10k.zsh`
 
 - install zsh with oh-my-zsh and some useful packages
