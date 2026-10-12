@@ -11,7 +11,7 @@ bye() {
 echo "wanna change root password? y/n"
 read isChRootpwd
 isChRootpwd=`echo $isChRootpwd | tr '[A-Z]' '[a-z]'`
-if [ $isChRootpwd == 'y' ] || [ $isChRootpwd == 'yes' ];
+if [ "$isChRootpwd" = 'y' ] || [ "$isChRootpwd" = 'yes' ];
 then
     sudo passwd root
 fi
